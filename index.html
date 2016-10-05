@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LIV Livres Solidaires | Home</title>
-  <!-- Import Bootstrap -->
+  <!-- Pulling Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Pulling jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Pulling Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- Import CSS -->
+  <!-- Pulling CSS -->
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Pulling Awesome Font -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 
 <body>
@@ -57,7 +61,7 @@
             <ul class="dropdown-menu" role="menu">
               <li><a href="#">Donate Your Books</a></li>
               <li><a href="#">Volunteer</a></li>
-              <li><a href="#">Become a Member</a></li>  
+              <li><a href="#">Become a Member</a></li>
             </ul>
           </div>
           <div class="btn-group">
@@ -106,7 +110,7 @@
             Welcome to the website of LIV Livres Solidaires!
           </h2>
           <p>
-            LIV is a non-profit organization based in Belgium. We collect and sort leisure reading books from Belgium and the North of France, then ship them to Haiti.
+            LIV is a small non-profit organization based in Belgium. We collect and sort leisure reading books from Belgium and the North of France, then ship them to Haiti.
             There, we receive them and prepare small libraries for education projects, schools and libraries. Along the distribution of books, we train headmasters
             and librarians to ensure books are well maintained and can be read by as many people as possible.
           </p>
@@ -131,12 +135,23 @@
   </div>
 
   <footer class="text-center">
-    <p>
-      &copy; LIV Livres Solidaires 2016
-    </p>
-    <!-- <p>
-      Website created by <a href="#">Komron Noorbakhsh</a> and Benjamin Vigreux
-    </p> -->
+    <div class="col-sm-12">
+      <p>
+        &copy; LIV Livres Solidaires 2016
+      </p>
+    </div>
+    <!-- <div class="col-sm-12">
+      <p>
+        Website created by <a href="#">Komron Noorbakhsh</a> and Benjamin Vigreux
+      </p>
+    </div> -->
+    <div class="col-sm-12">
+      <ul class="social-network social-circle">
+        <!-- TODO: Redirect to Facebook correctly -->
+        <li><a href="www.facebook.com/LIVLivresSolidaires" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" class="icoEnvelope" title="Mail"><i class="fa fa-envelope"></i></a></li>
+      </ul>
+		</div>
   </footer>
 </body>
 </html>

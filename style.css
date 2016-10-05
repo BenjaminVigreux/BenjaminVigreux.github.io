@@ -76,7 +76,7 @@ header .container .row:nth-child(3) a {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 15px;
   background-color: #117c0d;
 }
 
@@ -86,4 +86,61 @@ footer p {
 
 header .container .row p {
   color: white;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+
+.social-network a.icoEnvelope:hover {
+  background-color:#F23985;
+}
+
+.social-network a.icoFacebook:hover i, .social-network a.icoEnvelope:hover i {
+  color:#fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 30px;
+	height: 30px;
+	font-size:18px;
+}
+
+.social-circle li i {
+	margin:0;
+  margin-bottom: 10px;
+	line-height:30px;
+	text-align: center;
+}
+
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
 }
