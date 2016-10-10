@@ -1,5 +1,5 @@
 body{
-  background-color: #3d943a;
+  background-color: #509e4d;
 }
 
 .container p {
@@ -7,13 +7,17 @@ body{
 }
 
 header {
-  background-color: #3d943a;
-  margin-top: 10px;
+  background-color: #509e4d;
+  margin-top: 2px;
 }
 
 header .container .row:first-child p a {
   color: white;
   padding: 3px;
+}
+
+header .container .row:first-child p {
+  margin: 0;
 }
 
 header .container .row:nth-child(2){
@@ -30,7 +34,7 @@ header .container .row:nth-child(2) .col-sm-4 {
 }
 
 header .container .row:nth-child(2) .col-sm-8 h1 {
-  padding-top: 30px;
+  padding-top: 20px;
   color: #117c0d;
 }
 
@@ -81,16 +85,25 @@ header .container .row:nth-child(3) a {
 }
 
 #underSlideshow .container .row .col-sm-4 {
-  padding: 110px 40px 0px 40px;
+  padding: 165px 40px 0px 40px;
 }
 
 #underSlideshow .container .row .col-sm-4 h3 span {
   color: #117c0d;
 }
 
+#mainTeams .container{
+  background-color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 footer {
   margin-top: 15px;
-  background-color: #3d943a;
+  background-color: #509e4d;
 }
 
 footer p {
