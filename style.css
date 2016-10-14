@@ -1,5 +1,6 @@
 body{
-  background-color: #509e4d;
+  background-color: #61a75e;
+  position: relative;
 }
 
 .container p {
@@ -7,7 +8,7 @@ body{
 }
 
 header {
-  background-color: #509e4d;
+  background-color: #61a75e;
   margin-top: 2px;
 }
 
@@ -39,7 +40,6 @@ header .container .row:nth-child(2) .col-sm-8 h1 {
 }
 
 header .container .row:nth-child(3) {
-  background-color: white;
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
@@ -48,8 +48,17 @@ header .container .row:nth-child(3) {
 }
 
 header .container .row:nth-child(3) a {
-  color: black;
+  color: white;
   font-weight: bolder;
+}
+
+header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
+  color: black;
+}
+
+.navbar-default {
+  background-color: #117c0d;
+  border-color:  #117c0d;
 }
 
 .navbar-toggle {
@@ -93,7 +102,7 @@ header .container .row:nth-child(3) a {
 }
 
 #mainTeams .container{
-  background-color: white;
+  background-color: lightgray;
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
@@ -101,9 +110,51 @@ header .container .row:nth-child(3) a {
   border-bottom-right-radius: 10px;
 }
 
+#mainTeams .container .row .col-sm-3 {
+  margin-top: 15px;
+}
+
+.affix {
+  top: 15px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #117c0d;
+}
+
+.nav-pills > li > a {
+  color: #117c0d;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 810px) {
+  #LIV_Livres_Solidaires, #CARE_LIV {
+      margin-left: 150px;
+  }
+}
+
+#mainTeams .container .row .col-sm-3 li {
+  font-size: 16px;
+}
+
+#mainTeams .container .row .col-sm-9 {
+  background-color: white;
+}
+
+#mainTeams .container .row .col-sm-9 li{
+  font-size: 18px;
+}
+
+#mainTeams .container .row .col-sm-9 img {
+  height: 400px;
+  width:  100%;
+}
+
 footer {
   margin-top: 15px;
-  background-color: #509e4d;
+  background-color: #61a75e;
 }
 
 footer p {
