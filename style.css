@@ -114,6 +114,15 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
   margin-top: 15px;
 }
 
+#contactForms .container {
+  background-color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 .affix {
   top: 15px;
 }
@@ -126,7 +135,7 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
 .nav-pills > li > a {
   color: #117c0d;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 810px) {
