@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home | LIV Livres Solidaires</title>
+  <title>Nos Équipes | LIV Livres Solidaires</title>
   <!-- Pulling Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Pulling jQuery -->
@@ -24,8 +24,8 @@
       <div class="row">
         <p class="text-right">
           <!-- TODO: Underline the right language when that language has been selected + make it unclickable -->
-          <a href="index.html">fr</a>
-          <a href="home.html">en</a>
+          <a href="contactez-nous.html">fr</a>
+          <a href="contact_us.html">en</a>
         </p>
       </div>
       <div class="row">
@@ -84,80 +84,51 @@
     </div>
   </header>
 
-
-  <div id="slideshow">
-    <div class="container">
-      <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#homeCarousel" data-slide-to="1"></li>
-          <li data-target="#homeCarousel" data-slide-to="2"></li>
-          <li data-target="#homeCarousel" data-slide-to="3"></li>
-          <li data-target="#homeCarousel" data-slide-to="4"></li>
-        </ol>
-
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="3_filles.jpg" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Book_Boxes.jpg" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Crowd.jpg" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Tristan.png" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Dechargement_Conteneur.jpg" alt="#" width="100%">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div id="underSlideshow">
+  <div id="contactForms">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 text-justify">
-          <h2>
-            Welcome to the website of LIV Livres Solidaires Belgium!
-          </h2>
+        <div class="col-md-6 col-md-offset-3">
+          <h2>Contact Us</h2>
           <p>
-            LIV is a small non-profit organization based in Belgium. We collect and sort leisure reading books from Belgium and the North of France to send them to Haiti.
-          </p>
-          <p>
-            There, CARE/LIV – a social library – receives them and prepares small libraries for education projects, libraries, schools, students, teachers, etc.
-          </p>
-          <p>
-            Along the distribution of books, CARE/LIV trains reading animators and librarians to ensure books are well maintained and can be read by as many people as possible.
-            Our main objective is to improve access to leisure reading in Haiti.
-          </p>
-          <p>
-            Our organization was created out of two main realizations:
-            <ul>
-              <li>
-                There is an urgent need for reading materials in Haiti. While reading is universally recognized
-                as a pillar of education, access to books is severely limited. Although elementary education is mandatory, many Haitian children
-                have never read or held a book.
-              </li>
-              <li>
-                In Belgium, many people or organizations struggle to find channels to donate their books. As a result, thousands upon thousands of books in good
-                condition are recycled every year.
-              </li>
-            </ul>
-          </p>
-          <p>
-            Please navigate this website to learn more about the actions we take to deal with these issues and how you can help us. Should you have any question, do not hesitate to
-            send us an email at <a href="mailto:projetliv@gmail.com">projetliv@gmail.com</a> or <a href="https://www.facebook.com/LIVLivresSolidaires">follow us on facebook</a>.
+
           </p>
         </div>
-        <div class="col-sm-4 text-center">
-          <h3 class="blockquote">
-            Since its creation in November 2012, LIV has shipped <span> 6 containers</span>, or <span> more than 225,000 books</span>, to Haiti.
-          </h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <form class="form-horizontal" role="form" method="post" action="http://formspree.io/projetliv@gmail.com">
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="email" name="_replyto" placeholder="example@domain.com" value="" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message" class="col-sm-2 control-label">Message</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="4" name="message"></textarea>
+                <input type="hidden" name="_next" value="http://www.livlivressolidaires.org/thanks.html" />
+                <input type="text" name="_gotcha" style="display:none" />
+              </div>
+            </div>
+            <!-- <div class="form-group">
+              <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+              </div>
+            </div> -->
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -171,10 +142,11 @@
     </div>
     <div class="col-sm-12">
       <ul class="social-network social-circle">
+        <!-- TODO: Redirect to Facebook correctly -->
         <li><a href="https://www.facebook.com/LIVLivresSolidaires" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
         <li><a href="mailto:projetliv@gmail.com" class="icoEnvelope" title="Mail"><i class="fa fa-envelope"></i></a></li>
       </ul>
-		</div>
+    </div>
   </footer>
 </body>
 </html>
