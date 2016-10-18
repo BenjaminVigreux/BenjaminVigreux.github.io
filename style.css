@@ -114,15 +114,6 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
   margin-top: 15px;
 }
 
-#contactForms .container {
-  background-color: white;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
 .affix {
   top: 15px;
 }
@@ -159,6 +150,31 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
 #mainTeams .container .row .col-sm-9 img {
   height: 400px;
   width:  100%;
+}
+
+#contactForms .container {
+  background-color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#contactForms .container .row:first-child p {
+  text-align: justify;
+}
+
+
+#thankYou .container {
+  background-color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 footer {
