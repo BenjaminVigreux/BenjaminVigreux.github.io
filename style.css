@@ -114,6 +114,11 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
   margin-top: 15px;
 }
 
+#helpOptions img {
+  width:  100%;
+  height: auto;
+}
+
 .affix {
   top: 15px;
 }
@@ -165,6 +170,13 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
   text-align: justify;
 }
 
+#contactForms .container .row:nth-child(2) .col-md-4:first-child p:nth-child(4) {
+  margin-bottom: 2px;
+}
+
+#contactForms .container .row:nth-child(2) .col-md-4:nth-child(2) {
+  margin-left: 30px;
+}
 
 #thankYou .container {
   background-color: white;

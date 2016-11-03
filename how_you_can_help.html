@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home | LIV Livres Solidaires</title>
+  <title>How You Can Help | LIV Livres Solidaires</title>
   <!-- Pulling Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Pulling jQuery -->
@@ -24,8 +24,8 @@
       <div class="row">
         <p class="text-right">
           <!-- TODO: Underline the right language when that language has been selected + make it unclickable -->
-          <a href="index.html">fr</a>
-          <a href="home.html">en</a>
+          <a href="comment_nous_aider.html">fr</a>
+          <a href="how_you_can_help.html">en</a>
         </p>
       </div>
       <div class="row">
@@ -69,9 +69,9 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How You Can Help <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Donate Your Books</a></li>
-                    <li><a href="#">Volunteer</a></li>
-                    <li><a href="#">Become a Member</a></li>
+                    <li><a href="#donate">Donate Your Books</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                    <li><a href="#become_a_member">Become a Member</a></li>
                   </ul>
                 </li>
                 <li><a href="#">Project News</a></li>
@@ -84,80 +84,82 @@
     </div>
   </header>
 
-
-  <div id="slideshow">
-    <div class="container">
-      <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#homeCarousel" data-slide-to="1"></li>
-          <li data-target="#homeCarousel" data-slide-to="2"></li>
-          <li data-target="#homeCarousel" data-slide-to="3"></li>
-          <li data-target="#homeCarousel" data-slide-to="4"></li>
-        </ol>
-
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="3_filles.jpg" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Book_Boxes.jpg" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Crowd.jpg" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Tristan.png" alt="#" width="100%">
-          </div>
-          <div class="item">
-            <img src="Dechargement_Conteneur.jpg" alt="#" width="100%">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div id="underSlideshow">
+  <div id="helpOptions">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 text-justify">
-          <h2>
-            Welcome to the website of LIV Livres Solidaires Belgium!
-          </h2>
+        <nav class="col-sm-3" id="myScrollspy">
+          <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="235">
+            <li class="active"><a href="#donate"><strong>Donate Your Books</strong></a></li>
+            <li><a href="#volunteer"><strong>Volunteer</strong></a></li>
+            <li><a href="#become_a_member"><strong>Become a Member</strong></a></li>
+          </ul>
+        </nav>
+        <div class="col-sm-9">
+          <h2><strong>How You Can Help</strong></h2>
+          <br />
           <p>
-            LIV is a small non-profit organization based in Belgium. We collect and sort leisure reading books from Belgium and the North of France to send them to Haiti.
+            If you live in Belgium or in the North of France, there are many ways in which you could help us promote
+            access to leisure reading in Haiti!
           </p>
-          <p>
-            There, CARE/LIV – a social library – receives them and prepares small libraries for education projects, libraries, schools, students, teachers, etc.
-          </p>
-          <p>
-            Along the distribution of books, CARE/LIV trains reading animators and librarians to ensure books are well maintained and can be read by as many people as possible.
-            Our main objective is to improve access to leisure reading in Haiti.
-          </p>
-          <p>
-            Our organization was created out of two main realizations:
-            <ul>
-              <li>
-                There is an urgent need for reading materials in Haiti. While reading is universally recognized
-                as a pillar of education, access to books is severely limited. Although elementary education is mandatory, many Haitian children
-                have never read or held a book.
-              </li>
-              <li>
-                In Belgium, many people or organizations struggle to find channels to donate their books. As a result, thousands upon thousands of books in good
-                condition are recycled every year.
-              </li>
-            </ul>
-          </p>
-          <p>
-            Please navigate this website to learn more about the actions we take to deal with these issues and how you can help us. Should you have any question, do not hesitate to
-            send us an email at <a href="mailto:projetliv@gmail.com">projetliv@gmail.com</a> or <a href="https://www.facebook.com/LIVLivresSolidaires">follow us on facebook</a>.
-          </p>
-        </div>
-        <div class="col-sm-4 text-center">
-          <h3 class="blockquote">
-            Since its creation in November 2012, LIV has shipped <span> 6 containers</span>, or <span> more than 225,000 books</span>, to Haiti.
-          </h3>
+          <br />
+
+          <div id="donate">
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>Donate Your Books</h3>
+                <p>
+                  At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
+                  that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
+                  every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
+                  Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
+                  to bring us your books, we will let you know the dates of our next big collection in your region.
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <img src="Don_De_Livres.JPG"/>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <div id="volunteer">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="Don_De_Livres.JPG"/>
+              </div>
+              <div class="col-sm-6">
+                <h3>Donate Your Books</h3>
+                <p>
+                  At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
+                  that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
+                  every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
+                  Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
+                  to bring us your books, we will let you know the dates of our next big collection in your region.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <div id="become_a_member">
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>Donate Your Books</h3>
+                <p>
+                  At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
+                  that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
+                  every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
+                  Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
+                  to bring us your books, we will let you know the dates of our next big collection in your region.
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <img src="Don_De_Livres.JPG"/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
