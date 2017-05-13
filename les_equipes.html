@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+<!-- TODO: Fix bottom right border-radius -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +26,7 @@
       <div class="row">
         <p class="text-right">
           <!-- TODO: Underline the right language when that language has been selected + make it unclickable -->
-          <a href="les_equipes.html">fr</a>
+          <a id="selectedLanguage" href="les_equipes.html">fr</a>
           <a href="the_teams.html">en</a>
         </p>
       </div>
@@ -90,7 +92,7 @@
         <nav class="col-sm-3" id="myScrollspy">
           <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="235">
             <li class="active"><a href="#LIV_Livres_Solidaires"><strong>LIV Livres Solidaires (Belgique)</strong></a></li>
-            <li><a href="#CARE_LIV"><strong>CARE/LIV (Haïti)</strong></a></li>
+            <li><a href="#LIV_Librairie_Sociale"><strong>LIV Librairie Sociale (Haïti)</strong></a></li>
           </ul>
         </nav>
         <div class="col-sm-9">
@@ -139,8 +141,8 @@
             </ul>
             <h4>Et un grand nombre de volontaires, envers qui nous sommes infiniment reconnaissants!</h4>
           </div>
-          <div id="CARE_LIV">
-            <h3>CARE/LIV (Haïti)</h3>
+          <div id="LIV_Librairie_Sociale">
+            <h3>LIV Librairie Sociale (Haïti)</h3>
             <img src="#" />
             <p>
               <ul>

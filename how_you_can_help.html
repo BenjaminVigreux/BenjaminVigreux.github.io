@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+<!-- TODO: Fix scrolldown issue -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +20,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
   <header>
     <div class="container">
       <div class="row">
@@ -89,11 +91,12 @@
       <div class="row">
         <nav class="col-sm-3" id="myScrollspy">
           <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="235">
-            <li class="active"><a href="#donate"><strong>Donate Your Books</strong></a></li>
+            <li class="active"><a href="#donate"><strong>Donate Your Books &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </strong></a></li>
             <li><a href="#volunteer"><strong>Volunteer</strong></a></li>
             <li><a href="#become_a_member"><strong>Become a Member</strong></a></li>
           </ul>
         </nav>
+
         <div class="col-sm-9">
           <h2><strong>How You Can Help</strong></h2>
           <br />
@@ -104,59 +107,86 @@
           <br />
 
           <div id="donate">
+            <h3>Donate Your Books</h3>
+            <br/>
             <div class="row">
-              <div class="col-sm-6">
-                <h3>Donate Your Books</h3>
-                <p>
-                  At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
-                  that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
-                  every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
-                  Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
-                  to bring us your books, we will let you know the dates of our next big collection in your region.
-                </p>
+              <div class="col-sm-7">
+                <div style="display: table; height: 250px; overflow: hidden;">
+                  <div style="display: table-cell; vertical-align: middle;">
+                    <p>
+                      At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
+                      that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
+                      every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
+                      Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
+                      to bring us your books, we will let you know the dates of our next big collection in your region.
+                    </p>
+
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-5">
                 <img src="Don_De_Livres.JPG"/>
               </div>
             </div>
+            <br/>
+
+            <div id="box">
+              <h4>What types of books are we looking for?</h4>
+              <p>
+                We accept books:
+                <ul>
+                  <li> written in French or Creole </li>
+                  <li> and in good condition </li>
+                </ul>
+                Note: At the moment we have a particular need for books for children/youth, documentaries for adults, and dictionaries.
+                Please prioritize these over others, especially novels for adults, which are not as urgently needed.
+              </p>
+            </div>
           </div>
-          <br />
-          <br />
+          <br/>
 
           <div id="volunteer">
+            <h3>Volunteer</h3>
+            <br/>
             <div class="row">
-              <div class="col-sm-6">
-                <img src="Don_De_Livres.JPG"/>
+              <div class="col-sm-5">
+                <img src="Chargement du 5e conteneur.jpg"/>
               </div>
-              <div class="col-sm-6">
-                <h3>Donate Your Books</h3>
-                <p>
-                  At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
-                  that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
-                  every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
-                  Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
-                  to bring us your books, we will let you know the dates of our next big collection in your region.
-                </p>
+              <div class="col-sm-7">
+                <div style="display: table; height: 250px; overflow: hidden;">
+                  <div style="display: table-cell; vertical-align: middle;">
+                    <p>
+                      You can also help us by volunteering with us. As a volunteer, you may be asked to sort donated books
+                      into boxes or to load sorted boxes into a container. If you have a car and a valid driving license,
+                      you can also help us by collecting books from individual donors. You can volunteer by yourself or
+                      organize a volunteering opportunity with your family, friends, colleagues, etc. If you would like to
+                      volunteer with us, please <a href="contact_us.html">contact us</a>.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <br />
           <br />
 
           <div id="become_a_member">
+            <h3>Become a Member</h3>
+            <br/>
             <div class="row">
-              <div class="col-sm-6">
-                <h3>Donate Your Books</h3>
-                <p>
-                  At LIV Livres Solidaires, we rely largely on donations from individuals and organizations for the books
-                  that we send to Haiti. As such, we are always on the lookout and are extremely grateful for each and
-                  every new donation. Every bit counts! If you would like to donate your books, please <a href="contact_us.html">contact us</a>.
-                  Together, we will arrange a convenient time and date for you to bring us your books. If you are not able
-                  to bring us your books, we will let you know the dates of our next big collection in your region.
-                </p>
+              <div class="col-sm-7">
+                <div style="display: table; height: 250px; overflow: hidden;">
+                  <div style="display: table-cell; vertical-align: middle;">
+                    <p>
+                      You want to become active within our organization? You believe in what we do as much as we do? Then why
+                      don't you join us in the running of LIV Livres Solidaires? As a member, you would attend our general assemblies
+                      and have your say on how LIV is run. For more information on how to become a member, and the opportunities/responsibilities
+                      linked with the role, please <a href="contact_us.html">contact us</a>.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-6">
-                <img src="Don_De_Livres.JPG"/>
+              <div class="col-sm-5">
+                <img src="#"/>
               </div>
             </div>
           </div>
