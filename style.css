@@ -147,6 +147,11 @@ header .container .row:nth-child(3) .navbar .container-fluid .dropdown ul li a {
 border-radius: 20px;
 }
 
+
+
+
+/* Formats How You Can Help Body in English*/
+
 #helpOptions .container .row .col-sm-9 #donate .row .col-sm-7 div div p {
   padding: 10px;
 }
@@ -155,7 +160,27 @@ border-radius: 20px;
   padding-left: 10px;
 }
 
+/* How You Can Help Body in French*/
+
+#helpOptions .container .row .col-sm-9 #offrez_vos_livres .row .col-sm-7 div div p {
+  padding: 10px;
+}
+
+#helpOptions .container .row .col-sm-9 #devenez_benevole .row .col-sm-5 img {
+  padding-left: 10px;
+}
+
+/* Box on Types of Books needed in English */
 #helpOptions .container .row .col-sm-9 #donate #box {
+  margin: 10px 60px 0px 70px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #117c0d;
+}
+
+/* Box on Types of Books needed in French*/
+#helpOptions .container .row .col-sm-9 #offrez_vos_livres #box {
   margin: 10px 60px 0px 70px;
   padding: 10px;
   border-style: solid;
@@ -174,6 +199,8 @@ border-radius: 20px;
 .affix {
   top: 15px;
 }
+
+/**/
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
   color: #fff;
@@ -205,8 +232,10 @@ border-radius: 20px;
 }
 
 #mainTeams .container .row .col-sm-9 img {
-  height: 400px;
-  width:  100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
 }
 
 input {
@@ -253,7 +282,9 @@ label::before {
   content: "-";
 }*/
 
-#contactForms .container {
+
+/* White Body in All Pages */
+#contactForms .container, #ProjectSummary .container {
   background-color: white;
   border-left: 2px solid black;
   border-right: 2px solid black;
